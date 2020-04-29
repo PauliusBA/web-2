@@ -476,7 +476,8 @@ justify-content: space-between;
   .card {
     /* font-family: 'Heebo'; */
     --bg-filter-opacity: 0.5;
-    background-image: linear-gradient(rgba(0,0,0,var(--bg-filter-opacity)),rgba(0,0,0,var(--bg-filter-opacity))), var(--bg-img);
+    /* background-image: url('blog1.jpg'); */
+    /* background-image: linear-gradient(rgba(0,0,0,var(--bg-filter-opacity)),rgba(0,0,0,var(--bg-filter-opacity))), var(--bg-img); */
     height: 20em;
     width: 15em;
     font-size: 1.5em;
@@ -499,6 +500,15 @@ justify-content: space-between;
     overflow: hidden;
     /* border: 10px solid #ccc; */
     text-decoration: none;
+  }
+  .card1 {
+    background-image: url(blog1.jpg);
+  }
+  .card2 {
+    background-image: url(blog2.jpg);
+  }
+  .card3 {
+    background-image: url(blog3.jpg);
   }
   
   .card-details {
