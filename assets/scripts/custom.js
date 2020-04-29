@@ -10,16 +10,6 @@ $(window).on("scroll", function() {
     }
 });
 
-var slider = tns({
-	container: '.my-slider',
-	items: 1,
-	mouseDrag: true,
-	autoplay: true,
-	autoplayTimeout: 3000,
-    controlsText: ["ankstesnis", "sekantis"],
-    navPosition: 'bottom',
-	// navContainer: '.button-block'
-});
 
 $(document).ready(function(){
 	// Add smooth scrolling to all links
@@ -65,3 +55,12 @@ $(document).ready(function(){
 	});
 	
 	});
+
+
+
+$('#myCarousel').carousel()({
+		interval: 3000
+	  });
+	
+	  
+	  
